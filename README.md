@@ -19,10 +19,10 @@
     ```bash
     pip install -r requirements.txt
 ## Запуск
-   
+
     ```bash
     python manage.py runserver
-    ```
+
 
 ## Использование
 Перейдите на http://127.0.0.1:8000/ для ввода отзывов и получения их классификации.
