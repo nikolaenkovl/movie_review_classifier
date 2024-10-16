@@ -11,7 +11,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone <URL>
+    git clone https://github.com/nikolaenkovl/movie_review_classifier)](https://github.com/nikolaenkovl/movie_review_classifier
 2. Перейдите в папку проекта:
    ```bash
    cd movie_review_classifier
