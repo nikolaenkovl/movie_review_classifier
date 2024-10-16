@@ -1,0 +1,21 @@
+<form method="POST">
+    {% csrf_token %}
+    <textarea name="review" required></textarea>
+    <button type="submit">Отправить</button>
+</form>
+
+<h2>Все отзывы</h2>
+<table>
+    <tr>
+        <th>Отзыв</th>
+        <th>Классификация</th>
+        <th>Рейтинг</th>
+    </tr>
+    {% for review in reviews %}
+    <tr>
+        <td>{{ review.text }}</td>
+        <td>{{ review.status }}</td>
+        <td>{{ review.rating|floatformat:1 }}</td>
+    </tr>
+    {% endfor %}
+</table>
